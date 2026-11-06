@@ -5,7 +5,7 @@ A single-screen Flutter application engineered with **Clean Architecture** and *
 
 ---
 
-## ✨ Features & Requirements
+## Features & Requirements
 
 - **Instant QR Code Generation**: Converts text or URLs into standard black-and-white QR codes using `qr_flutter`.
 - **Save to Gallery**: Captures the rendered QR code as a bitmap via `RepaintBoundary` and saves it to the device photo library using `image_gallery_saver`.
@@ -19,7 +19,7 @@ A single-screen Flutter application engineered with **Clean Architecture** and *
 
 ---
 
-## 🏛️ System Architecture
+## System Architecture
 
 The project strictly follows **Clean Architecture** principles to cleanly decouple the presentation layer from business logic and platform-specific data sources:
 
@@ -63,7 +63,7 @@ lib/
 
 ---
 
-## ⚡ State Management Flow (Cubit)
+##  State Management Flow (Cubit)
 
 The state is managed using `QrCubit` with the following sealed states:
 - `QrInitial`: Initial state before any generation.
@@ -73,7 +73,7 @@ The state is managed using `QrCubit` with the following sealed states:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Flutter SDK `^3.13.0` (Dart `^3.13.0`)
@@ -101,7 +101,7 @@ flutter run
 
 ---
 
-## 🧪 Testing Suite
+##  Testing Suite
 16 comprehensive automated unit and widget tests are included:
 - **Cubit Tests**: Valid generation, empty input validation, asynchronous saving/sharing state transitions, permission denial handling.
 - **Repository Tests**: Result wrapping, exception mapping to `Failure` types.
