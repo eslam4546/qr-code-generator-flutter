@@ -62,6 +62,13 @@ lib/
 ```
 
 ---
+<img width="370" height="814" alt="image" src="https://github.com/user-attachments/assets/bae96238-2a1e-46d6-87a0-b576357addab" />
+<img width="370" height="814" alt="image" src="https://github.com/user-attachments/assets/47d67859-a506-45b7-84eb-8db7e3b64b56" />
+<img width="370" height="814" alt="image" src="https://github.com/user-attachments/assets/28212f4b-5cec-4073-bd72-20cf00c88c21" />
+<img width="369" height="811" alt="image" src="https://github.com/user-attachments/assets/eb94eb9b-8aee-471d-ac47-421a97f6e68e" />
+
+
+---
 
 ##  State Management Flow (Cubit)
 
